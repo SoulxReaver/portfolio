@@ -1,0 +1,106 @@
+@media screen and (max-width: 425px) {
+    body {
+        width: 310px;
+    }
+
+    .projects img {
+        width: 80%;
+    }
+
+    .projects {
+        padding: 15px 0;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    body {
+        width: 750px;
+    }
+
+    .projects img {
+        width: 80%;
+    }
+    
+    .projects {
+        padding: 15px 0;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    body {
+        width: 900px;
+    }
+    
+    .projects img {
+        width: 100%;
+    }
+}
+
+html {
+        margin: 0;
+}
+
+body {
+    color: #2d3c49;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    margin: auto;
+}
+
+header {
+    -webkit-display: flex;
+    display: flex;
+}
+
+header div {
+    text-align: right;
+    width: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+.logoIcon {
+    float: left;
+    width: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: normal;
+    margin: 0;
+}
+
+h2 {
+    color: #7d97ad;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 10px 0 0 0;
+}
+
+.container {
+    -webkit-display: flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.container div {
+    margin: auto;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+}
+
+hr {
+    border: 2px solid #7d97ad;
+}
+

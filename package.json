@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoulxReaver/portfolio.git"
+  },
+  "author": "Alex Tong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoulxReaver/portfolio/issues"
+  },
+  "homepage": "https://github.com/SoulxReaver/portfolio#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-csslint": "^1.0.0"
+  }
+}
