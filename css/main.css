@@ -1,5 +1,5 @@
 html {
-        margin: 0;
+    margin: 0;
 }
 
 body {
@@ -14,7 +14,7 @@ header {
     display: flex;
 }
 
-header div {
+#intro {
     text-align: right;
     width: 100%;
 }
@@ -23,7 +23,7 @@ p {
     margin: 0;
 }
 
-.logoIcon {
+.logo-icon {
     float: left;
     width: 50px;
 }
@@ -54,9 +54,13 @@ h3 {
     width: 100%;
 }
 
-.container div {
-    margin: auto;
+.projects {
+    padding: 15px 0;
     text-align: center;
+}
+
+article {
+    margin: auto;
 }
 
 .banner img {
@@ -68,41 +72,21 @@ hr {
 }
 
 @media screen and (max-width: 425px) {
-    body {
-        width: 310px;
-    }
-
     .projects img {
         width: 80%;
-    }
-
-    .projects {
-        padding: 15px 0;
     }
 
     h2 {
         font-size: 24px;
     }
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
-    body {
-        width: 720px;
-    }
-
+@media screen and (min-width: 426px) and (max-width: 850px) {
     .projects img {
         width: 80%;
     }
-    
-    .projects {
-        padding: 15px 0;
-    }
 }
 
-@media screen and (min-width: 769px) {
-    body {
-        width: 900px;
-    }
-    
+@media screen and (min-width: 851px) {
     .projects img {
         width: 100%;
     }
